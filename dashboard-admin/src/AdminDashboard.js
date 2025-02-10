@@ -205,7 +205,7 @@ export default function AdminDashboard() {
             <h2 className="text-2xl font-bold mb-4">Daftar Barang</h2>
             <input
               type="text"
-              placeholder="Cari barang..."
+              placeholder="Cari barang...."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="border p-2 rounded"
